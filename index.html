@@ -5,39 +5,130 @@
 <style>
   h1 {  
     color: #4285F4; 
-    font-family: "prodct sans";
+    font-family: "futura"; 
     padding: 10px;
     margin: 50px;
     text-align: center;
    }
+
    input[type=search] {
      width: 300px;
      margin: auto;
      display: flex;
-     border-radius: 10px;
+     justify-content: center;
+     border-radius: 20px;
      border-color: #FFFFFF;
-     
-     
+     padding: 1px 44px 1px 52px;
+      }
 
-   }
-   img {
-     width: 20px;
-     
-   }
+   #gpfp {
+     height: 30px;
+     border-radius: 75%; 
+      position: fixed;
+        top: 10px;
+        left: 410px;
+     }
 
+  #gmcp {
+    height: 13px;
+    position: fixed; 
+    left: 352px;
+  }
 
-</style>
+  #ggmail {
+    display: flex;
+    }
 
-  	<title>Google Homepage </title>
+  #Search {
+    width: 100px;
+    height: 30;
+    padding: 6 1 6 1;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+    font: 13px arial,sans-serif;
+    background-image: linear-gradient(white, #DCDCDC);
+    position: fixed;
+      right: 230px;    
+  }
+
+  #Lucky {
+    width: 100px;
+    height: 30;
+    padding: 6 1 6 1;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+    font: 13px arial,sans-serif;
+    background-image: linear-gradient(white, #DCDCDC);
+    position: absolute;
+      right: 125px;
+    display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-direction: row;    
+      align-items: center; 
+  }
+
+  body {
+     background-color: white;
+      }
+
+  #Gmail {
+    font-size: 11px;
+    font-color: grey;
+    font-family: arial;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+      top: 5px;
+      right: 120px;
+    background-image: linear-gradient(white, #DCDCDC)
+  }
+
+#Images {
+  font-size: 11px;
+  font-family: arial;
+  font-color: grey;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+    top: 5px;
+    right: 70px;
+  background-image: linear-gradient(white, #DCDCDC)
+  
+}
+  
+  </style>
+
+  	<title>New Tab </title>
   	<h1 id="google g">
      Google
     </h1>
-    <img src=https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod.s3.amazonaws.com%2Fimages%2Ffull-frame-shot-of-raw-almonds-royalty-free-image-683814187-1537885519.jpg%3Fcrop%3D0.66635xw%3A1xh%3Bcenter%2Ctop%26resize%3D480%3A*&imgrefurl=https%3A%2F%2Fwww.goodhousekeeping.com%2Fhealth%2Fdiet-nutrition%2Fa19503705%2Falmonds-nutrition%2F&tbnid=ey9uobb2VoX0_M&vet=12ahUKEwjWmfW5r4bwAhVIgE4HHe2HB_wQMygBegUIARDrAQ..i&docid=ejihVxPr4sMrRM&w=480&h=480&q=almonds&ved=2ahUKEwjWmfW5r4bwAhVIgE4HHe2HB_wQMygBegUIARDrAQ">
+    
+  
+
+    <img  src=https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-frame-shot-of-raw-almonds-royalty-free-image-683814187-1537885519.jpg?crop=0.66635xw:1xh;center,top&resize=480:* id="gpfp">
+    
+    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png id="gmcp">
+    
     <h2 class="google search bar">
-<input type="search" name="searchbar" id="gsb">
-  </h2> 
+<input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite">
+
+<div>
+<p id="Search">Google Search</p>
+
+<p id="Lucky">I'm Feeling Lucky</p>
+</div>
+
+<p id="Gmail">Gmail</p>
+
+<p id="Images">Images</p> 
+
+
+
+</h2> 
   </head> 
   </body>
 </html>
 
-  
